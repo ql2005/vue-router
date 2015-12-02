@@ -5,7 +5,7 @@
  */
 
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() : typeof define === 'function' && define.amd ? module.exports = factory() || module.exports; : global.VueRouter = factory();
+    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() : typeof define === 'function' && define.amd ? module.exports = factory() || module.exports : global.VueRouter = factory();
 }(this, function () {
     'use strict';
     var babelHelpers = {};
